@@ -6547,7 +6547,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-indent-list@npm:30.0.0, @udecode/plate-indent-list@workspace:^, @udecode/plate-indent-list@workspace:packages/indent-list":
+"@udecode/plate-indent-list@npm:30.0.1, @udecode/plate-indent-list@workspace:^, @udecode/plate-indent-list@workspace:packages/indent-list":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-indent-list@workspace:packages/indent-list"
   dependencies:
@@ -6801,13 +6801,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-serializer-csv@npm:30.0.0, @udecode/plate-serializer-csv@workspace:^, @udecode/plate-serializer-csv@workspace:packages/serializer-csv":
+"@udecode/plate-serializer-csv@npm:30.0.1, @udecode/plate-serializer-csv@workspace:^, @udecode/plate-serializer-csv@workspace:packages/serializer-csv":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-serializer-csv@workspace:packages/serializer-csv"
   dependencies:
     "@types/papaparse": "npm:^5.3.7"
     "@udecode/plate-common": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     papaparse: "npm:^5.4.1"
   peerDependencies:
     react: ">=16.8.0"
@@ -6819,17 +6819,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-serializer-docx@npm:30.0.0, @udecode/plate-serializer-docx@workspace:^, @udecode/plate-serializer-docx@workspace:packages/serializer-docx":
+"@udecode/plate-serializer-docx@npm:30.0.1, @udecode/plate-serializer-docx@workspace:^, @udecode/plate-serializer-docx@workspace:packages/serializer-docx":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-serializer-docx@workspace:packages/serializer-docx"
   dependencies:
     "@udecode/plate-common": "npm:30.0.0"
     "@udecode/plate-heading": "npm:30.0.0"
     "@udecode/plate-indent": "npm:30.0.0"
-    "@udecode/plate-indent-list": "npm:30.0.0"
+    "@udecode/plate-indent-list": "npm:30.0.1"
     "@udecode/plate-media": "npm:30.0.0"
     "@udecode/plate-paragraph": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     validator: "npm:^13.9.0"
   peerDependencies:
     react: ">=16.8.0"
@@ -6915,7 +6915,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-table@npm:30.0.0, @udecode/plate-table@workspace:^, @udecode/plate-table@workspace:packages/table":
+"@udecode/plate-table@npm:30.0.1, @udecode/plate-table@workspace:^, @udecode/plate-table@workspace:packages/table":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-table@workspace:packages/table"
   dependencies:
@@ -7046,7 +7046,7 @@ __metadata:
     "@udecode/plate-highlight": "npm:30.0.0"
     "@udecode/plate-horizontal-rule": "npm:30.0.0"
     "@udecode/plate-indent": "npm:30.0.0"
-    "@udecode/plate-indent-list": "npm:30.0.0"
+    "@udecode/plate-indent-list": "npm:30.0.1"
     "@udecode/plate-kbd": "npm:30.0.0"
     "@udecode/plate-line-height": "npm:30.0.0"
     "@udecode/plate-link": "npm:30.0.0"
@@ -7059,13 +7059,13 @@ __metadata:
     "@udecode/plate-reset-node": "npm:30.0.0"
     "@udecode/plate-resizable": "npm:30.0.0"
     "@udecode/plate-select": "npm:30.0.0"
-    "@udecode/plate-serializer-csv": "npm:30.0.0"
-    "@udecode/plate-serializer-docx": "npm:30.0.0"
+    "@udecode/plate-serializer-csv": "npm:30.0.1"
+    "@udecode/plate-serializer-docx": "npm:30.0.1"
     "@udecode/plate-serializer-html": "npm:30.0.0"
     "@udecode/plate-serializer-md": "npm:30.0.0"
     "@udecode/plate-suggestion": "npm:30.0.0"
     "@udecode/plate-tabbable": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     "@udecode/plate-trailing-block": "npm:30.0.0"
   peerDependencies:
     react: ">=16.8.0"
@@ -9056,6 +9056,18 @@ __metadata:
   dependencies:
     ms: "npm:^2.1.1"
   checksum: 37d96ae42cbc71c14844d2ae3ba55adf462ec89fd3a999459dec3833944cd999af6007ff29c780f1c61153bcaaf2c842d1e4ce1ec621e4fc4923244942e4a02a
+  languageName: node
+  linkType: hard
+
+"debug@npm:~4.4.1":
+  version: 4.4.3
+  resolution: "debug@npm:4.4.3"
+  dependencies:
+    ms: "npm:^2.1.3"
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: d79136ec6c83ecbefd0f6a5593da6a9c91ec4d7ddc4b54c883d6e71ec9accb5f67a1a5e96d00a328196b5b5c86d365e98d8a3a70856aaf16b4e7b1985e67f5a6
   languageName: node
   linkType: hard
 
@@ -15680,7 +15692,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ms@npm:^2.0.0, ms@npm:^2.1.1":
+"ms@npm:^2.0.0, ms@npm:^2.1.1, ms@npm:^2.1.3":
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
   checksum: d924b57e7312b3b63ad21fc5b3dc0af5e78d61a1fc7cfb5457edaf26326bf62be5307cc87ffb6862ef1c2b33b0233cdb5d4f01c4c958cc0d660948b65a287a48
@@ -19015,12 +19027,12 @@ __metadata:
   linkType: hard
 
 "socket.io-parser@npm:~4.2.4":
-  version: 4.2.4
-  resolution: "socket.io-parser@npm:4.2.4"
+  version: 4.2.7
+  resolution: "socket.io-parser@npm:4.2.7"
   dependencies:
     "@socket.io/component-emitter": "npm:~3.1.0"
-    debug: "npm:~4.3.1"
-  checksum: 9383b30358fde4a801ea4ec5e6860915c0389a091321f1c1f41506618b5cf7cd685d0a31c587467a0c4ee99ef98c2b99fb87911f9dfb329716c43b587f29ca48
+    debug: "npm:~4.4.1"
+  checksum: 16a5579718b871114ca644d688987dd3cf9292010c949fb083633eefbc1d8fdaf424691d6511d746e5c10f5c88cbd8911cd0b1e807242159f40989be90842b4e
   languageName: node
   linkType: hard
 
