@@ -2011,10 +2011,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@faker-js/faker@npm:^8.2.0":
-  version: 8.3.1
-  resolution: "@faker-js/faker@npm:8.3.1"
-  checksum: ed50c27a5674a8c755574ccc0c79c29fa70cd17d524b701269f584d2f78720c690da219f6111b0e743a4f6570fb08685d826b2d9e80ca9c1484b8c26047864c6
+"@faker-js/faker@npm:^10.5.0":
+  version: 10.5.0
+  resolution: "@faker-js/faker@npm:10.5.0"
+  checksum: 2de3c7b8f41592d52cefc3ab4c99536656249bca78d5ad184a3b7ac43ecc9d946056cef2c4d37060373ef06ad992d82530de08479fabe16fdbe77b911d842446
   languageName: node
   linkType: hard
 
@@ -6547,7 +6547,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-indent-list@npm:30.0.0, @udecode/plate-indent-list@workspace:^, @udecode/plate-indent-list@workspace:packages/indent-list":
+"@udecode/plate-indent-list@npm:30.0.1, @udecode/plate-indent-list@workspace:^, @udecode/plate-indent-list@workspace:packages/indent-list":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-indent-list@workspace:packages/indent-list"
   dependencies:
@@ -6801,13 +6801,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-serializer-csv@npm:30.0.0, @udecode/plate-serializer-csv@workspace:^, @udecode/plate-serializer-csv@workspace:packages/serializer-csv":
+"@udecode/plate-serializer-csv@npm:30.0.1, @udecode/plate-serializer-csv@workspace:^, @udecode/plate-serializer-csv@workspace:packages/serializer-csv":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-serializer-csv@workspace:packages/serializer-csv"
   dependencies:
     "@types/papaparse": "npm:^5.3.7"
     "@udecode/plate-common": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     papaparse: "npm:^5.4.1"
   peerDependencies:
     react: ">=16.8.0"
@@ -6819,17 +6819,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-serializer-docx@npm:30.0.0, @udecode/plate-serializer-docx@workspace:^, @udecode/plate-serializer-docx@workspace:packages/serializer-docx":
+"@udecode/plate-serializer-docx@npm:30.0.1, @udecode/plate-serializer-docx@workspace:^, @udecode/plate-serializer-docx@workspace:packages/serializer-docx":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-serializer-docx@workspace:packages/serializer-docx"
   dependencies:
     "@udecode/plate-common": "npm:30.0.0"
     "@udecode/plate-heading": "npm:30.0.0"
     "@udecode/plate-indent": "npm:30.0.0"
-    "@udecode/plate-indent-list": "npm:30.0.0"
+    "@udecode/plate-indent-list": "npm:30.0.1"
     "@udecode/plate-media": "npm:30.0.0"
     "@udecode/plate-paragraph": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     validator: "npm:^13.9.0"
   peerDependencies:
     react: ">=16.8.0"
@@ -6915,7 +6915,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-table@npm:30.0.0, @udecode/plate-table@workspace:^, @udecode/plate-table@workspace:packages/table":
+"@udecode/plate-table@npm:30.0.1, @udecode/plate-table@workspace:^, @udecode/plate-table@workspace:packages/table":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-table@workspace:packages/table"
   dependencies:
@@ -7046,7 +7046,7 @@ __metadata:
     "@udecode/plate-highlight": "npm:30.0.0"
     "@udecode/plate-horizontal-rule": "npm:30.0.0"
     "@udecode/plate-indent": "npm:30.0.0"
-    "@udecode/plate-indent-list": "npm:30.0.0"
+    "@udecode/plate-indent-list": "npm:30.0.1"
     "@udecode/plate-kbd": "npm:30.0.0"
     "@udecode/plate-line-height": "npm:30.0.0"
     "@udecode/plate-link": "npm:30.0.0"
@@ -7059,13 +7059,13 @@ __metadata:
     "@udecode/plate-reset-node": "npm:30.0.0"
     "@udecode/plate-resizable": "npm:30.0.0"
     "@udecode/plate-select": "npm:30.0.0"
-    "@udecode/plate-serializer-csv": "npm:30.0.0"
-    "@udecode/plate-serializer-docx": "npm:30.0.0"
+    "@udecode/plate-serializer-csv": "npm:30.0.1"
+    "@udecode/plate-serializer-docx": "npm:30.0.1"
     "@udecode/plate-serializer-html": "npm:30.0.0"
     "@udecode/plate-serializer-md": "npm:30.0.0"
     "@udecode/plate-suggestion": "npm:30.0.0"
     "@udecode/plate-tabbable": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     "@udecode/plate-trailing-block": "npm:30.0.0"
   peerDependencies:
     react: ">=16.8.0"
@@ -21587,7 +21587,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "www@workspace:apps/www"
   dependencies:
-    "@faker-js/faker": "npm:^8.2.0"
+    "@faker-js/faker": "npm:^10.5.0"
     "@radix-ui/colors": "npm:1.0.0"
     "@radix-ui/react-accessible-icon": "npm:^1.0.3"
     "@radix-ui/react-accordion": "npm:^1.1.2"
