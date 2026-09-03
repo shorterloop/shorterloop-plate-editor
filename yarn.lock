@@ -6547,7 +6547,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-indent-list@npm:30.0.0, @udecode/plate-indent-list@workspace:^, @udecode/plate-indent-list@workspace:packages/indent-list":
+"@udecode/plate-indent-list@npm:30.0.1, @udecode/plate-indent-list@workspace:^, @udecode/plate-indent-list@workspace:packages/indent-list":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-indent-list@workspace:packages/indent-list"
   dependencies:
@@ -6801,13 +6801,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-serializer-csv@npm:30.0.0, @udecode/plate-serializer-csv@workspace:^, @udecode/plate-serializer-csv@workspace:packages/serializer-csv":
+"@udecode/plate-serializer-csv@npm:30.0.1, @udecode/plate-serializer-csv@workspace:^, @udecode/plate-serializer-csv@workspace:packages/serializer-csv":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-serializer-csv@workspace:packages/serializer-csv"
   dependencies:
     "@types/papaparse": "npm:^5.3.7"
     "@udecode/plate-common": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     papaparse: "npm:^5.4.1"
   peerDependencies:
     react: ">=16.8.0"
@@ -6819,17 +6819,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-serializer-docx@npm:30.0.0, @udecode/plate-serializer-docx@workspace:^, @udecode/plate-serializer-docx@workspace:packages/serializer-docx":
+"@udecode/plate-serializer-docx@npm:30.0.1, @udecode/plate-serializer-docx@workspace:^, @udecode/plate-serializer-docx@workspace:packages/serializer-docx":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-serializer-docx@workspace:packages/serializer-docx"
   dependencies:
     "@udecode/plate-common": "npm:30.0.0"
     "@udecode/plate-heading": "npm:30.0.0"
     "@udecode/plate-indent": "npm:30.0.0"
-    "@udecode/plate-indent-list": "npm:30.0.0"
+    "@udecode/plate-indent-list": "npm:30.0.1"
     "@udecode/plate-media": "npm:30.0.0"
     "@udecode/plate-paragraph": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     validator: "npm:^13.9.0"
   peerDependencies:
     react: ">=16.8.0"
@@ -6915,7 +6915,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-table@npm:30.0.0, @udecode/plate-table@workspace:^, @udecode/plate-table@workspace:packages/table":
+"@udecode/plate-table@npm:30.0.1, @udecode/plate-table@workspace:^, @udecode/plate-table@workspace:packages/table":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-table@workspace:packages/table"
   dependencies:
@@ -7046,7 +7046,7 @@ __metadata:
     "@udecode/plate-highlight": "npm:30.0.0"
     "@udecode/plate-horizontal-rule": "npm:30.0.0"
     "@udecode/plate-indent": "npm:30.0.0"
-    "@udecode/plate-indent-list": "npm:30.0.0"
+    "@udecode/plate-indent-list": "npm:30.0.1"
     "@udecode/plate-kbd": "npm:30.0.0"
     "@udecode/plate-line-height": "npm:30.0.0"
     "@udecode/plate-link": "npm:30.0.0"
@@ -7059,13 +7059,13 @@ __metadata:
     "@udecode/plate-reset-node": "npm:30.0.0"
     "@udecode/plate-resizable": "npm:30.0.0"
     "@udecode/plate-select": "npm:30.0.0"
-    "@udecode/plate-serializer-csv": "npm:30.0.0"
-    "@udecode/plate-serializer-docx": "npm:30.0.0"
+    "@udecode/plate-serializer-csv": "npm:30.0.1"
+    "@udecode/plate-serializer-docx": "npm:30.0.1"
     "@udecode/plate-serializer-html": "npm:30.0.0"
     "@udecode/plate-serializer-md": "npm:30.0.0"
     "@udecode/plate-suggestion": "npm:30.0.0"
     "@udecode/plate-tabbable": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     "@udecode/plate-trailing-block": "npm:30.0.0"
   peerDependencies:
     react: ">=16.8.0"
@@ -11054,9 +11054,9 @@ __metadata:
   linkType: hard
 
 "fflate@npm:^0.7.3":
-  version: 0.7.4
-  resolution: "fflate@npm:0.7.4"
-  checksum: 5e749eb3a6ed61a0f6c55756abf9f4258f06f60505db689e22d18503dd252ca5af656d32668e4b7b20714adf8b313febf695d23863a8352f23e325baee0f672d
+  version: 0.7.5
+  resolution: "fflate@npm:0.7.5"
+  checksum: dd49302136bbe63d5e26a1e2ce7f2c9ff73a2c7eb591af433a20a4fd840e4914c7cad863945162067ec87dd871baa9250b755d06650f59c86b2d72dde4042f58
   languageName: node
   linkType: hard
 
