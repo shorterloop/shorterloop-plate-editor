@@ -6547,7 +6547,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-indent-list@npm:30.0.0, @udecode/plate-indent-list@workspace:^, @udecode/plate-indent-list@workspace:packages/indent-list":
+"@udecode/plate-indent-list@npm:30.0.1, @udecode/plate-indent-list@workspace:^, @udecode/plate-indent-list@workspace:packages/indent-list":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-indent-list@workspace:packages/indent-list"
   dependencies:
@@ -6801,13 +6801,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-serializer-csv@npm:30.0.0, @udecode/plate-serializer-csv@workspace:^, @udecode/plate-serializer-csv@workspace:packages/serializer-csv":
+"@udecode/plate-serializer-csv@npm:30.0.1, @udecode/plate-serializer-csv@workspace:^, @udecode/plate-serializer-csv@workspace:packages/serializer-csv":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-serializer-csv@workspace:packages/serializer-csv"
   dependencies:
     "@types/papaparse": "npm:^5.3.7"
     "@udecode/plate-common": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     papaparse: "npm:^5.4.1"
   peerDependencies:
     react: ">=16.8.0"
@@ -6819,17 +6819,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-serializer-docx@npm:30.0.0, @udecode/plate-serializer-docx@workspace:^, @udecode/plate-serializer-docx@workspace:packages/serializer-docx":
+"@udecode/plate-serializer-docx@npm:30.0.1, @udecode/plate-serializer-docx@workspace:^, @udecode/plate-serializer-docx@workspace:packages/serializer-docx":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-serializer-docx@workspace:packages/serializer-docx"
   dependencies:
     "@udecode/plate-common": "npm:30.0.0"
     "@udecode/plate-heading": "npm:30.0.0"
     "@udecode/plate-indent": "npm:30.0.0"
-    "@udecode/plate-indent-list": "npm:30.0.0"
+    "@udecode/plate-indent-list": "npm:30.0.1"
     "@udecode/plate-media": "npm:30.0.0"
     "@udecode/plate-paragraph": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     validator: "npm:^13.9.0"
   peerDependencies:
     react: ">=16.8.0"
@@ -6915,7 +6915,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@udecode/plate-table@npm:30.0.0, @udecode/plate-table@workspace:^, @udecode/plate-table@workspace:packages/table":
+"@udecode/plate-table@npm:30.0.1, @udecode/plate-table@workspace:^, @udecode/plate-table@workspace:packages/table":
   version: 0.0.0-use.local
   resolution: "@udecode/plate-table@workspace:packages/table"
   dependencies:
@@ -7046,7 +7046,7 @@ __metadata:
     "@udecode/plate-highlight": "npm:30.0.0"
     "@udecode/plate-horizontal-rule": "npm:30.0.0"
     "@udecode/plate-indent": "npm:30.0.0"
-    "@udecode/plate-indent-list": "npm:30.0.0"
+    "@udecode/plate-indent-list": "npm:30.0.1"
     "@udecode/plate-kbd": "npm:30.0.0"
     "@udecode/plate-line-height": "npm:30.0.0"
     "@udecode/plate-link": "npm:30.0.0"
@@ -7059,13 +7059,13 @@ __metadata:
     "@udecode/plate-reset-node": "npm:30.0.0"
     "@udecode/plate-resizable": "npm:30.0.0"
     "@udecode/plate-select": "npm:30.0.0"
-    "@udecode/plate-serializer-csv": "npm:30.0.0"
-    "@udecode/plate-serializer-docx": "npm:30.0.0"
+    "@udecode/plate-serializer-csv": "npm:30.0.1"
+    "@udecode/plate-serializer-docx": "npm:30.0.1"
     "@udecode/plate-serializer-html": "npm:30.0.0"
     "@udecode/plate-serializer-md": "npm:30.0.0"
     "@udecode/plate-suggestion": "npm:30.0.0"
     "@udecode/plate-tabbable": "npm:30.0.0"
-    "@udecode/plate-table": "npm:30.0.0"
+    "@udecode/plate-table": "npm:30.0.1"
     "@udecode/plate-trailing-block": "npm:30.0.0"
   peerDependencies:
     react: ">=16.8.0"
@@ -11807,11 +11807,11 @@ __metadata:
   linkType: hard
 
 "handlebars@npm:^4.4.3":
-  version: 4.7.7
-  resolution: "handlebars@npm:4.7.7"
+  version: 4.7.10
+  resolution: "handlebars@npm:4.7.10"
   dependencies:
-    minimist: "npm:^1.2.5"
-    neo-async: "npm:^2.6.0"
+    minimist: "npm:^1.2.8"
+    neo-async: "npm:^2.6.2"
     source-map: "npm:^0.6.1"
     uglify-js: "npm:^3.1.4"
     wordwrap: "npm:^1.0.0"
@@ -11820,7 +11820,7 @@ __metadata:
       optional: true
   bin:
     handlebars: bin/handlebars
-  checksum: 4c0913fc0018a2a2e358ee94e4fe83f071762b8bec51a473d187e6642e94e569843adcf550ffe329554c63ad450c062f3a05447bd2e3fff5ebfe698e214225c6
+  checksum: 9b5573584ae5836172ae3f1502d9819568ba1b92ee83b81b18223beeb4c07486595e7b0fa633102beabc66ed06fe6e7da1dd9a9ea8c7072b9550b9a88809165c
   languageName: node
   linkType: hard
 
@@ -15510,7 +15510,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.6, minimist@npm:^1.2.8":
+"minimist@npm:^1.2.0, minimist@npm:^1.2.6, minimist@npm:^1.2.8":
   version: 1.2.8
   resolution: "minimist@npm:1.2.8"
   checksum: 19d3fcdca050087b84c2029841a093691a91259a47def2f18222f41e7645a0b7c44ef4b40e88a1e58a40c84d2ef0ee6047c55594d298146d0eb3f6b737c20ce6
@@ -15761,7 +15761,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"neo-async@npm:^2.6.0":
+"neo-async@npm:^2.6.2":
   version: 2.6.2
   resolution: "neo-async@npm:2.6.2"
   checksum: c2f5a604a54a8ec5438a342e1f356dff4bc33ccccdb6dc668d94fe8e5eccfc9d2c2eea6064b0967a767ba63b33763f51ccf2cd2441b461a7322656c1f06b3f5d
